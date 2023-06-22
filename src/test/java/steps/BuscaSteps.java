@@ -12,8 +12,8 @@ public class BuscaSteps extends RunTest {
 
     BuscaPage buscaPage = new BuscaPage();
 
-    @Então("^valido o resultado da busca por \"([^\"]*)\"$")
-    public void valido_o_resultado_da_busca(String busca) {
-        buscaPage.validarBusca(busca);
+    @Então("^valido o resultado da busca por \"([^\"]*)\" \"([^\"]*)\"$")
+    public void valido_o_resultado_da_busca(String busca, String link) {
+        buscaPage.validarBusca(busca, link);
     }
 }

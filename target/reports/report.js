@@ -131,11 +131,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "valido o resultado da busca por \"Formação Super SOC\"",
+  "name": "valido o resultado da busca por \"Formação Super SOC\" \"https://www.soc.com.br/formacao-super-soc/\"",
   "keyword": "Então "
 });
 formatter.match({
-  "location": "BuscaSteps.valido_o_resultado_da_busca(String)"
+  "location": "BuscaSteps.valido_o_resultado_da_busca(String,String)"
 });
 formatter.result({
   "status": "passed"

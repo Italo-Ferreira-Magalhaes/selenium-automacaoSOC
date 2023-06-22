@@ -12,4 +12,4 @@
   Cenário: Verificar se busca no blog é realizada corretamente
     Dado acesso o blog da SOC
     Quando eu realizo uma busca "Formação Super SOC"
-    Então valido o resultado da busca por "Formação Super SOC"
+    Então valido o resultado da busca por "Formação Super SOC" "https://www.soc.com.br/formacao-super-soc/"
